@@ -1,3 +1,3 @@
 # AppDev-Group
 
-sample repo
+App Dev Activity Test
