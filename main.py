@@ -1,1 +1,5 @@
-print("Hello World")
+print("Hello World - from Group hindi ko alam")
+print ("Member 1: Kyle Matthew Almario")
+print ("Member 2: Jesse Salinas")
+print ("Member 3: Ian fidelo")
+print ("Member 4: Mark Deyto")
