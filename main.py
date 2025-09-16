@@ -8,3 +8,5 @@ print("Member 5: Paul Vincent Pico")
 print("Member 6: Tom Cedric Deleon")
 
 #print lang kayo dito sa baba para pang test.
+
+print("Test lang ito")
