@@ -1,19 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Login</title>
-        <script src="script.js" defer></script>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src="script.js" defer></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff; /* Whole background white */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
 
-    <body>
-        <h1>Login System </h1>
+        .container {
+            background-color: #f9f9f9; /* light gray box for contrast */
+            padding: 30px 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 320px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #666;
+            font-size: 1em;
+            margin-bottom: 25px;
+            font-weight: normal;
+        }
+
+        h3 {
+            color: #444;
+            margin-top: 20px;
+        }
+
+        input {
+            display: block;
+            margin: 10px auto;
+            padding: 10px;
+            width: 80%;
+            max-width: 250px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+        }
+
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        hr {
+            border: none;
+            height: 1px;
+            background-color: #ddd;
+            margin: 25px 0;
+            width: 100%;
+        }
+
+        #message {
+            margin-top: 15px;
+            color: #333;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Login System</h1>
+        <h2>Group 2</h2>
 
         <h3>Register</h3>
         <input type="text" id="regUser" placeholder="Username"> 
         <input type="password" id="regPass" placeholder="Password (min 8 chars)"> 
         <button id="registerBtn">Register</button>
+
+        <hr>
 
         <h3>Login</h3>
         <input type="text" id="loginUser" placeholder="Username"> 
@@ -21,6 +103,6 @@
         <button id="loginBtn">Login</button>
 
         <p id="message"></p>
-    </body>
-
+    </div>
+</body>
 </html>
